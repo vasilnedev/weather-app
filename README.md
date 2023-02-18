@@ -1,6 +1,6 @@
 # weather-app
 
-The goal of this project is to create a weather app that shows the current weather conditions and forecast for a specific location.
+The goal of this project is to create a weather app in Python that shows the current weather conditions and forecast for a specific location.
 
 Here are the steps taken to create this project:
 * Use the requests library to make an API call to a weather service (e.g. OpenWeatherMap) to retrieve the weather data for a specific location.
