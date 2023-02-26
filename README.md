@@ -20,18 +20,18 @@ This repository illustrates different development stages and experiments - descr
 The final application is (will be) in **app.js** and within multiple class files (file names start with capital letters).
 
 ### Stage files:
-* **app.00.py** - Concept design - a single file, fully functional application without classes and error handling
-* **app.01.py** - Single file application, which have Main Application foundation class and Basic Frame class
-* **app.02.py** - Added all visual classes (inhereting Basic Frame), but no data class
-* **app.03.py** - Added data (API) class, without image support
-* **...**
-* **app.py**    - Final application with split class files, error handling and detailed comments
-* **Weather_API.py** - class to fetch and store all data from the weather API
-* **Basic_Frame.py** - a basic frame that clears it's container and render new widgets - to be inherited by all GUI frames
-* **Forecast_Frame.py** - main view with query dialog and view of the forcast data
-* **API_Key_Frame.py** - API Key dialog
-* **Help_Frame.py** - Help information
+* *app.00.py* - Concept design - a single file, fully functional application without classes and error handling
+* *app.01.py* - Single file application, which have Main Application foundation class and Basic Frame class
+* *app.02.py* - Added all visual classes (inhereting Basic Frame), but no data class
+* *app.03.py* - Added data (API) class, without image support
+* *...*
+* ***app.py*** - Final application with split class files, error handling and detailed comments
+* *Weather_API.py* - data class to fetch and store all data from the weather API
+* *Basic_Frame.py* - a basic frame that clears its container and render new widgets - to be inherited by all visual classes
+* *Forecast_Frame.py* - main view with query dialog and view of the forcast data
+* *API_Key_Frame.py* - API Key dialog
+* *Help_Frame.py* - help information
 
 ### Experiments
-* **basic-gui.py** - experiment with tkinter GUI
-* **basic-gui-threads.py** - use Threading to avid bloking the app in case of slow operations e.g. API calls
+* *basic-gui.py* - experiment with tkinter GUI
+* *basic-gui-threads.py* - use Threading to avid bloking the app in case of slow operations e.g. API calls
