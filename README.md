@@ -25,7 +25,9 @@ The final application is (will be) in **app.js** and within multiple class files
 * *app.02.py* - Added all visual classes (inhereting Basic Frame), but no data class
 * *app.03.py* - Added data (API) class, without image support
 * *...*
-* ***app.py*** - Final application with split class files, error handling and detailed comments
+
+### Final app files:
+* ***app.py*** - Main application with split class files, error handling and detailed comments
 * *Weather_API.py* - data class to fetch and store all data from the weather API
 * *Basic_Frame.py* - a basic frame that clears its container and render new widgets - to be inherited by all visual classes
 * *Forecast_Frame.py* - main view with query dialog and view of the forcast data
