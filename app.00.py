@@ -22,7 +22,7 @@ def clear_root( root:object ):
         frame.destroy()
 
 ##########################
-# Help form
+# Help frame
 ##########################
 
 def close_help_form( root:object ):
@@ -66,7 +66,7 @@ IP address (IPv4 and IPv6 supported) e.g: 100.0.0.1
     ).grid( row=2 , column=0 )
 
 ########################################
-# Weather forecast form (main form)
+# Weather forecast frame (main frame)
 ########################################
 
 # Retrive data from API and update form widgets
@@ -150,7 +150,7 @@ def forecast_form( root:object ):
     ttk.Label( frm,  name = 'temp_f' ).grid( row=4 , column=1 , columnspan=2 )
 
 ##########################
-# API Key form
+# API Key frame
 ##########################
 
 # Save API key into a file

@@ -21,11 +21,16 @@ The final application is (will be) in **app.js** and within multiple class files
 
 ### Stage files:
 **app.00.py** - Concept design - a single file, fully functional application without classes and error handling
-**app.01.py** - Main Application class and Basic Frame class - foundamental class for all future frames
+**app.01.py** - Main Application foundation class and Basic Frame class
 **app.02.py** - Added all visual classes (inhereting Basic Frame), but no data class
 **app.03.py** - Added data (API) class, without image supprot
 **...**
-**app.py**    - final application with classes, error handling and detailed comments
+**app.py**    - final application with split class files, error handling and detailed comments
+**Weather_API.py** - class to fetch and store all data from the weather API
+**Basic_Frame.py** - a basic frame that clears it's container and render new widgets - to be inherited by all GUI frames
+**Forecast_Frame.py** - main view with query dialog and view of the forcast data
+**API_Key_Frame.py** - API Key dialog
+**Help_Frame.py** - Help information
 
 ### Experiments
 **basic-gui.py** - experiment with tkinter GUI
