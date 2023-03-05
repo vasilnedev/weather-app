@@ -76,11 +76,13 @@ def fetch_forecast( query:str , form:object ):
     # Send API request like:
     # http://api.weatherapi.com/v1/current.json?key=< API KEY >&q=London&aqi=no
     # For full documentation visit https://www.weatherapi.com site
-    url = "http://api.weatherapi.com/v1/current.json"
+    url = "http://api.weatherapi.com/v1/forecast.json"
     params = {
         'key': weatherAPI_key, 
         'q': query,
-        'aqi': 'no'   # To get air quality data or not
+        'days':7,
+        'aqi': 'no',   # To get air quality data or not
+        'alerts':'no'
     }
     res = requests.get( url , params=params )  
     # Update widgets
@@ -202,7 +204,7 @@ to save it and use this application.
 # MAIN APP
 ##################
 
-root = Tk(  )
+root = Tk(  ) # Creates a window
 
 try:
     # Get WeatherAPI Key from file
@@ -214,4 +216,4 @@ except FileNotFoundError as e:
     # User entery of API Key
     api_key_form( root )
 
-root.mainloop()
+root.mainloop() # Shows the window
