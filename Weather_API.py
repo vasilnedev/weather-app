@@ -45,7 +45,6 @@ class Weather_API( Web_API ):
             'aqi': 'no',   # aqi = air quality
             'alerts':'no'
         }
-
         res = requests.get( self.url , params=params )
         res.close()
         # Return data and call the callback function with arguments: status:bool and data:object

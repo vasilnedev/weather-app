@@ -32,6 +32,7 @@ This project should:
 
 ### App layout
 ![App Layout](WeatherApp_Layout.png "App Layout")
+Also, explenation is provided in video notes: [You Tube notes](https://youtu.be/V8WMeTCC4FY).
 
 ## Development notes
 This repository contains different development stages and learning experiments.
